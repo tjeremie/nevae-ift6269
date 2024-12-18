@@ -1,0 +1,16 @@
+name: ift6269
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.12
+  - networkx
+  - pytorch=2.2
+  - pytorch-cuda=12.1
+  - conda-forge::lightning=2.2
+  - conda-forge::pytorch_geometric
+  - pip
+  - pip:
+    - numpy<2
+    - pandas
+    - matplotlib
